@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>University Marketplace</title>
+    <link rel="icon" type="image/png" href="marketplace_icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="pageTitle">University Marketplace</h1>
+    </header>
+    <main>
+      <form id="searchForm">
+        <input type="text" id="searchTerm" name="searchTerm" placeholder="Search for items...">
+        <button type="submit" aria-label="Search">Search</button>
+      </form>
+      <div id="sellButtonContainer">
+        <button onclick="location.href='sell.html'" type="button">Sell an Item</button>
+      </div>
+      <div id="searchResults"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sell an Item</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <form id="sellForm" enctype="multipart/form-data">
+    <input type="text" id="itemName" name="name" placeholder="Item Name" required>
+    <input type="number" id="itemPrice" name="price" placeholder="Price" required>
+    <textarea id="itemDescription" name="description" placeholder="Description" required></textarea>
+    <input type="text" id="sellerName" name="seller" placeholder="Your Name" required>
+    <input type="file" id="itemImage" name="pic_name" accept="image/*" required>
+    <button type="submit">Submit</button>
+  </form>
+  
+  <div id="message"></div>
+
+  <script src="sell.js"></script>
+</body>
+</html>

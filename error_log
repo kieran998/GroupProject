@@ -1,0 +1,46 @@
+[01-Jun-2023 16:09:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nh529_Nic'@'localhost' (using password: YES) in /home/nh529/public_html/integratedGroupProject/marketplace.php on line 12
+[01-Jun-2023 16:09:43 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/nh529/public_html/integratedGroupProject/marketplace.php:89
+Stack trace:
+#0 /home/nh529/public_html/integratedGroupProject/marketplace.php(89): mysqli->query('SELECT `id`, `n...')
+#1 {main}
+  thrown in /home/nh529/public_html/integratedGroupProject/marketplace.php on line 89
+[01-Jun-2023 16:10:44 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nh529_Nic'@'localhost' (using password: YES) in /home/nh529/public_html/integratedGroupProject/marketplace.php on line 12
+[01-Jun-2023 16:10:44 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/nh529/public_html/integratedGroupProject/marketplace.php:89
+Stack trace:
+#0 /home/nh529/public_html/integratedGroupProject/marketplace.php(89): mysqli->query('SELECT `id`, `n...')
+#1 {main}
+  thrown in /home/nh529/public_html/integratedGroupProject/marketplace.php on line 89
+[01-Jun-2023 16:10:48 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nh529_Nic'@'localhost' (using password: YES) in /home/nh529/public_html/integratedGroupProject/marketplace.php on line 12
+[01-Jun-2023 16:10:48 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/nh529/public_html/integratedGroupProject/marketplace.php:89
+Stack trace:
+#0 /home/nh529/public_html/integratedGroupProject/marketplace.php(89): mysqli->query('SELECT `id`, `n...')
+#1 {main}
+  thrown in /home/nh529/public_html/integratedGroupProject/marketplace.php on line 89
+[01-Jun-2023 16:14:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in /home/nh529/public_html/integratedGroupProject/marketplace.php:90
+Stack trace:
+#0 {main}
+  thrown in /home/nh529/public_html/integratedGroupProject/marketplace.php on line 90
+[01-Jun-2023 16:18:56 UTC] PHP Fatal error:  Uncaught Exception: MySQL error: Table 'nh529_marketPlaceItems.items' doesn't exist in /home/nh529/public_html/integratedGroupProject/marketplace.php:87
+Stack trace:
+#0 {main}
+  thrown in /home/nh529/public_html/integratedGroupProject/marketplace.php on line 87
+[01-Jun-2023 21:41:52 UTC] Request data: 
+[01-Jun-2023 21:42:15 UTC] Request data: 
+[01-Jun-2023 21:48:04 UTC] Request data: 
+[01-Jun-2023 21:53:30 UTC] ID received for deletion: null
+[01-Jun-2023 21:53:30 UTC] Item with ID null deleted successfully.
+[01-Jun-2023 22:08:05 UTC] ID received for deletion: null
+[01-Jun-2023 22:08:05 UTC] Item with ID null deleted successfully.
+[01-Jun-2023 22:10:33 UTC] ID received for deletion: null
+[01-Jun-2023 22:10:33 UTC] Item with ID null deleted successfully.
+[01-Jun-2023 22:12:05 UTC] Delete query: DELETE FROM `items` WHERE id='null'
+[01-Jun-2023 22:12:05 UTC] No rows deleted. Item with ID null might not exist.
+[01-Jun-2023 22:18:27 UTC] Delete query: DELETE FROM `items` WHERE id='null'
+[01-Jun-2023 22:18:27 UTC] No rows deleted. Item with ID null might not exist.
+[01-Jun-2023 22:21:49 UTC] Delete query: DELETE FROM `items` WHERE id='null'
+[01-Jun-2023 22:21:49 UTC] No rows deleted. Item with ID null might not exist.
+[01-Jun-2023 22:22:20 UTC] Delete query: DELETE FROM `items` WHERE id='null'
+[01-Jun-2023 22:22:20 UTC] No rows deleted. Item with ID null might not exist.
+[01-Jun-2023 22:26:08 UTC] Delete query: DELETE FROM `items` WHERE id='null'
+[01-Jun-2023 22:26:08 UTC] No rows deleted. Item with ID null might not exist.
+[01-Jun-2023 22:29:57 UTC] Delete query: DELETE FROM `items` WHERE id='52'

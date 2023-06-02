@@ -1,0 +1,87 @@
+/* Set a default font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Centre the title of the page */
+header {
+  text-align: center;
+}
+
+/* Centre the search form and search results */
+#searchForm,
+#searchResults {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style the search form */
+#searchForm {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#searchForm label {
+  margin-right: 10px;
+}
+
+#searchForm input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#searchForm button[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the search results */
+#searchResults {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+#searchResults div {
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#searchResults img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#searchResults h2 {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#searchResults p {
+  margin: 10px;
+  font-size: 16px;
+  max-height: 3.6em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Darken the background to a neutral color */
+body {
+  background-color: #F5F5F5;
+}
